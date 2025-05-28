@@ -1,0 +1,13 @@
+[project]
+name = "gemini-image-mcp-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.115.12",
+    "google-genai>=1.16.1",
+    "httpx>=0.28.1",
+    "mcp>=1.9.1",
+    "pillow>=10.2.0",
+]

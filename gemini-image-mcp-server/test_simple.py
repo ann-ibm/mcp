@@ -30,7 +30,6 @@ def send_simple_command():
 
 if __name__ == "__main__":
     # 设置环境变量
-    os.environ['GEMINI_API_KEY'] = 'AIzaSyC2yi5VqL079tAh5BqGdVVLu2ztxSQeB1s'
     
     print("Starting test...", file=sys.stderr)
     send_simple_command() 
